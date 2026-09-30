@@ -1,0 +1,14 @@
+{
+  "proves": "Monthly compounding and final settlement",
+  "params": {
+    "loan_id": "GOLDEN-06",
+    "annual_rate": "0.12",
+    "day_count": "ACT_365",
+    "structure": "INTEREST_ONLY",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "400000.00",
+    "interest_treatment": "ROLLED",
+    "term_months": 12
+  }
+}

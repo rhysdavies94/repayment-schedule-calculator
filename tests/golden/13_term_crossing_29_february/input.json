@@ -1,0 +1,13 @@
+{
+  "proves": "Leap-year day counts under ACT/365 (period to 15 Mar 2028 has 29 days)",
+  "params": {
+    "loan_id": "GOLDEN-13",
+    "annual_rate": "0.09",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2027-11-15",
+    "first_payment_date": "2027-12-15",
+    "principal": "60000.00",
+    "term_months": 12
+  }
+}

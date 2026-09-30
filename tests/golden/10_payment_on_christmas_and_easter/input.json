@@ -1,0 +1,13 @@
+{
+  "proves": "26 Dec 2026 (Sat, before substitute Boxing Day) moves to Tue 29 Dec; 26 Mar 2027 (Good Friday) moves to Tue 30 Mar; next periods return to the 26th",
+  "params": {
+    "loan_id": "GOLDEN-10",
+    "annual_rate": "0.09",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-11-26",
+    "first_payment_date": "2026-12-26",
+    "principal": "120000.00",
+    "term_months": 12
+  }
+}

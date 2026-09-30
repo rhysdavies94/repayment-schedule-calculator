@@ -1,0 +1,13 @@
+{
+  "proves": "Sat 31 Oct 2026 moves back to Fri 30 Oct, not into November",
+  "params": {
+    "loan_id": "GOLDEN-11",
+    "annual_rate": "0.09",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-09-30",
+    "first_payment_date": "2026-10-31",
+    "principal": "80000.00",
+    "term_months": 12
+  }
+}

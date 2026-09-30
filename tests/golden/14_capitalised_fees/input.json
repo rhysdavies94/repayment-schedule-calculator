@@ -1,0 +1,14 @@
+{
+  "proves": "EIR above the contractual rate, customer schedule identical to the no-fee case",
+  "params": {
+    "loan_id": "GOLDEN-14",
+    "annual_rate": "0.09",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "100000.00",
+    "term_months": 60,
+    "capitalised_fees": "2000.00"
+  }
+}

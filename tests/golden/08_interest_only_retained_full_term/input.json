@@ -1,0 +1,14 @@
+{
+  "proves": "Whole-term retention with nothing due until maturity",
+  "params": {
+    "loan_id": "GOLDEN-08",
+    "annual_rate": "0.11",
+    "day_count": "ACT_365",
+    "structure": "INTEREST_ONLY",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "250000.00",
+    "retained_months": 12,
+    "term_months": 12
+  }
+}

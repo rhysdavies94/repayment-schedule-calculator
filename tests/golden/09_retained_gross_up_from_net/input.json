@@ -1,0 +1,14 @@
+{
+  "proves": "Gross-up lands on the net figure to the penny",
+  "params": {
+    "loan_id": "GOLDEN-09",
+    "annual_rate": "0.105",
+    "day_count": "ACT_365",
+    "structure": "INTEREST_ONLY",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "net_advance": "400000.00",
+    "retained_months": 6,
+    "term_months": 12
+  }
+}

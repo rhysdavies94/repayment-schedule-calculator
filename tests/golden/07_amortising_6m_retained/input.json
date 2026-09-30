@@ -1,0 +1,14 @@
+{
+  "proves": "Retention on gross balance and follow-on solve",
+  "params": {
+    "loan_id": "GOLDEN-07",
+    "annual_rate": "0.095",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "300000.00",
+    "retained_months": 6,
+    "term_months": 60
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PLACEHOLDER - fill from the signed-off spreadsheet, then set to SIGNED_OFF",
+  "signed_off_by": null,
+  "signed_off_date": null,
+  "principal": null,
+  "net_advance": null,
+  "retained_interest": null,
+  "level_instalment": null,
+  "total_interest": null,
+  "total_payable": null,
+  "final_payment": null,
+  "eir_annual": null,
+  "eir_monthly": null,
+  "eir_tolerance": "0.000001"
+}

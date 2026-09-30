@@ -1,0 +1,13 @@
+{
+  "proves": "Solver handles an irregular 45-day first period",
+  "params": {
+    "loan_id": "GOLDEN-02",
+    "annual_rate": "0.075",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-01",
+    "first_payment_date": "2026-11-15",
+    "principal": "150000.00",
+    "term_months": 60
+  }
+}

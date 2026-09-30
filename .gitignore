@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.ipynb_checkpoints/
+notebooks/output/
+schedule_*.csv
+*.egg-info/

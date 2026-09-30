@@ -1,0 +1,13 @@
+{
+  "proves": "EIR measured on the contractual basis (30E/360)",
+  "params": {
+    "loan_id": "GOLDEN-15c",
+    "annual_rate": "0.09",
+    "day_count": "30E_360",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "100000.00",
+    "term_months": 36
+  }
+}

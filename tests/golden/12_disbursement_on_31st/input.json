@@ -1,0 +1,13 @@
+{
+  "proves": "End-of-month dates and 30E/360 day-31 handling",
+  "params": {
+    "loan_id": "GOLDEN-12",
+    "annual_rate": "0.09",
+    "day_count": "30E_360",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-12-31",
+    "first_payment_date": "2027-01-31",
+    "principal": "90000.00",
+    "term_months": 12
+  }
+}

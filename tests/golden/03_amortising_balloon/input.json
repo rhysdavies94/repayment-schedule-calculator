@@ -1,0 +1,14 @@
+{
+  "proves": "Balloon left outstanding, instalment correct",
+  "params": {
+    "loan_id": "GOLDEN-03",
+    "annual_rate": "0.08",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "200000.00",
+    "term_months": 84,
+    "balloon_amount": "80000.00"
+  }
+}

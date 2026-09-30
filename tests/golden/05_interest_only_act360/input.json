@@ -1,0 +1,13 @@
+{
+  "proves": "Monthly interest plus bullet",
+  "params": {
+    "loan_id": "GOLDEN-05",
+    "annual_rate": "0.10",
+    "day_count": "ACT_360",
+    "structure": "INTEREST_ONLY",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "500000.00",
+    "term_months": 24
+  }
+}

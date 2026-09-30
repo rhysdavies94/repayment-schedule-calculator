@@ -1,0 +1,13 @@
+{
+  "proves": "V3 tolerance scales and passes on a long term",
+  "params": {
+    "loan_id": "GOLDEN-04",
+    "annual_rate": "0.09",
+    "day_count": "ACT_365",
+    "structure": "AMORTISING",
+    "disbursement_date": "2026-10-15",
+    "first_payment_date": "2026-11-15",
+    "principal": "250000.00",
+    "term_months": 300
+  }
+}

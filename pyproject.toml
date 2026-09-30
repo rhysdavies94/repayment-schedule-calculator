@@ -1,0 +1,40 @@
+[project]
+name = "repayment-schedule"
+version = "0.1.0"
+description = "Loan repayment schedule, level instalment and IFRS 9 EIR calculator"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1.6",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+    "scipy>=1.17.1",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["repayment_schedule"]
+
+[tool.setuptools.package-data]
+repayment_schedule = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[dependency-groups]
+app = [
+    "streamlit>=1.64.0",
+]
+dev = [
+    "hypothesis>=6.168.3",
+    "ipykernel>=7.4.0",
+    "nbformat>=5.11.1",
+    "papermill>=2.7.0",
+    "pytest>=9.1.1",
+]
+
+[tool.uv]
+default-groups = ["dev", "app"]
