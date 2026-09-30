@@ -194,7 +194,7 @@ def check_inputs(inputs: LoanInputs) -> list[str]:
         errors.append(f"balloon_amount must be in whole pennies, got {balloon}")
     elif balloon > 0 and not amortising:
         errors.append("balloon_amount is only allowed on AMORTISING loans")
-    elif inputs.principal is not None and balloon >= inputs.principal:
+    elif balloon > 0 and inputs.principal is not None and balloon >= inputs.principal:
         errors.append(
             f"balloon_amount ({balloon}) must be less than principal ({inputs.principal})"
         )

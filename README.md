@@ -29,14 +29,27 @@ run all cells. It shows the summary, the V1–V7 checks and the schedule, and wr
 uv run papermill notebooks/generate_schedule.ipynb out.ipynb -p loan_id LN-001 -p principal 250000.00 -p term_months 120
 ```
 
-## Golden scenario explorer (Streamlit)
+## Loan schedule explorer (Streamlit)
 
-`app/streamlit_app.py` is a web app for the golden cases in `tests/golden/`:
+`app/streamlit_app.py` is a web app with two modes.
+
+**Golden scenarios** browses the cases in `tests/golden/`:
 
 - a sidebar picker with ◀ ▶ buttons;
 - headline figures and status badges (hard checks, sign-off, warnings);
 - tabs for the summary, V1–V7 checks, schedule, inputs and golden comparison, which shows every difference to the penny once a case is signed off;
-- a CSV download button.
+- **Customise this scenario** copies a case's inputs into Build your own.
+
+**Build your own** lets anyone enter a loan:
+
+- the sidebar form covers every input field, and fields that don't apply are hidden (a balloon for interest-only, net advance without retention);
+- you can start from a blank loan or any golden case;
+- the schedule recalculates as you edit;
+- the page URL holds the inputs, so a link reproduces the loan exactly;
+- the Inputs tab downloads them as a golden-case `input.json`, ready to add under `tests/golden/`.
+
+In both modes, bad inputs are listed in plain English, and the schedule and
+CSV download are withheld if any hard check fails.
 
 The loading and comparison logic is in `repayment_schedule/golden.py`, shared
 with `tests/test_golden.py`.
